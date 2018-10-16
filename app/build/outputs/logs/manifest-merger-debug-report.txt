@@ -1,0 +1,91 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/lovelace/Documentos/Projeto Paredão/Programação Android/10DimensoesControle/app/src/main/AndroidManifest.xml:2:1-24:12
+	package
+		ADDED from /home/lovelace/Documentos/Projeto Paredão/Programação Android/10DimensoesControle/app/src/main/AndroidManifest.xml:3:5-63
+		INJECTED from /home/lovelace/Documentos/Projeto Paredão/Programação Android/10DimensoesControle/app/src/main/AndroidManifest.xml
+		INJECTED from /home/lovelace/Documentos/Projeto Paredão/Programação Android/10DimensoesControle/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/lovelace/Documentos/Projeto Paredão/Programação Android/10DimensoesControle/app/src/main/AndroidManifest.xml
+		INJECTED from /home/lovelace/Documentos/Projeto Paredão/Programação Android/10DimensoesControle/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/lovelace/Documentos/Projeto Paredão/Programação Android/10DimensoesControle/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /home/lovelace/Documentos/Projeto Paredão/Programação Android/10DimensoesControle/app/src/main/AndroidManifest.xml
+		INJECTED from /home/lovelace/Documentos/Projeto Paredão/Programação Android/10DimensoesControle/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /home/lovelace/Documentos/Projeto Paredão/Programação Android/10DimensoesControle/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /home/lovelace/Documentos/Projeto Paredão/Programação Android/10DimensoesControle/app/src/main/AndroidManifest.xml:5:22-64
+application
+ADDED from /home/lovelace/Documentos/Projeto Paredão/Programação Android/10DimensoesControle/app/src/main/AndroidManifest.xml:8:5-22:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/lovelace/.android/build-cache/46d00b67b019a4d2c3ad0ea216d8efb894f5ff03/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] /home/lovelace/.android/build-cache/702feea9d7c7ecda08eda3c84cd68c3d7b798a03/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /home/lovelace/.android/build-cache/32891bed055882659371bb220ddd3319f4016af3/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/lovelace/.android/build-cache/0e634ae757312c8de1e7915fe9c3f2df3835a896/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/lovelace/.android/build-cache/5110ff24eb3eee13df0b94ced24800ea64773dce/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/lovelace/.android/build-cache/bfabdbb295310c326db99f375b144d337da1ce16/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/lovelace/.android/build-cache/0193cb2fa4acd4630e001a083d235cd8c6481228/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/lovelace/.android/build-cache/9b374082cac085f376806920ec2c04e3e7dfaab3/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /home/lovelace/.android/build-cache/7236660a58cfa11b85ae86f93a35f13d1433872b/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/lovelace/.android/build-cache/5032cd33c41fcdeaaee6ac8c8bddaf9334bb0e08/output/AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from /home/lovelace/Documentos/Projeto Paredão/Programação Android/10DimensoesControle/app/src/main/AndroidManifest.xml:11:9-41
+	android:supportsRtl
+		ADDED from /home/lovelace/Documentos/Projeto Paredão/Programação Android/10DimensoesControle/app/src/main/AndroidManifest.xml:13:9-35
+	android:roundIcon
+		ADDED from /home/lovelace/Documentos/Projeto Paredão/Programação Android/10DimensoesControle/app/src/main/AndroidManifest.xml:12:9-54
+	android:allowBackup
+		ADDED from /home/lovelace/Documentos/Projeto Paredão/Programação Android/10DimensoesControle/app/src/main/AndroidManifest.xml:9:9-35
+	android:icon
+		ADDED from /home/lovelace/Documentos/Projeto Paredão/Programação Android/10DimensoesControle/app/src/main/AndroidManifest.xml:10:9-43
+	android:theme
+		ADDED from /home/lovelace/Documentos/Projeto Paredão/Programação Android/10DimensoesControle/app/src/main/AndroidManifest.xml:14:9-40
+activity#com.example.williankossmann.a10dimensoescontrole.MainActivity
+ADDED from /home/lovelace/Documentos/Projeto Paredão/Programação Android/10DimensoesControle/app/src/main/AndroidManifest.xml:15:9-21:20
+	android:name
+		ADDED from /home/lovelace/Documentos/Projeto Paredão/Programação Android/10DimensoesControle/app/src/main/AndroidManifest.xml:15:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/lovelace/Documentos/Projeto Paredão/Programação Android/10DimensoesControle/app/src/main/AndroidManifest.xml:16:13-20:29
+action#android.intent.action.MAIN
+ADDED from /home/lovelace/Documentos/Projeto Paredão/Programação Android/10DimensoesControle/app/src/main/AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from /home/lovelace/Documentos/Projeto Paredão/Programação Android/10DimensoesControle/app/src/main/AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/lovelace/Documentos/Projeto Paredão/Programação Android/10DimensoesControle/app/src/main/AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from /home/lovelace/Documentos/Projeto Paredão/Programação Android/10DimensoesControle/app/src/main/AndroidManifest.xml:19:27-74
+uses-sdk
+INJECTED from /home/lovelace/Documentos/Projeto Paredão/Programação Android/10DimensoesControle/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/lovelace/.android/build-cache/46d00b67b019a4d2c3ad0ea216d8efb894f5ff03/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.1] /home/lovelace/.android/build-cache/702feea9d7c7ecda08eda3c84cd68c3d7b798a03/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] /home/lovelace/.android/build-cache/32891bed055882659371bb220ddd3319f4016af3/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/lovelace/.android/build-cache/0e634ae757312c8de1e7915fe9c3f2df3835a896/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/lovelace/.android/build-cache/5110ff24eb3eee13df0b94ced24800ea64773dce/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/lovelace/.android/build-cache/bfabdbb295310c326db99f375b144d337da1ce16/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/lovelace/.android/build-cache/0193cb2fa4acd4630e001a083d235cd8c6481228/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/lovelace/.android/build-cache/9b374082cac085f376806920ec2c04e3e7dfaab3/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-compat:25.3.1] /home/lovelace/.android/build-cache/7236660a58cfa11b85ae86f93a35f13d1433872b/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/lovelace/.android/build-cache/5032cd33c41fcdeaaee6ac8c8bddaf9334bb0e08/output/AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /home/lovelace/.android/build-cache/46d00b67b019a4d2c3ad0ea216d8efb894f5ff03/output/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /home/lovelace/Documentos/Projeto Paredão/Programação Android/10DimensoesControle/app/src/main/AndroidManifest.xml
+		INJECTED from /home/lovelace/Documentos/Projeto Paredão/Programação Android/10DimensoesControle/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/lovelace/Documentos/Projeto Paredão/Programação Android/10DimensoesControle/app/src/main/AndroidManifest.xml
+		INJECTED from /home/lovelace/Documentos/Projeto Paredão/Programação Android/10DimensoesControle/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.3.1] /home/lovelace/.android/build-cache/46d00b67b019a4d2c3ad0ea216d8efb894f5ff03/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] /home/lovelace/.android/build-cache/702feea9d7c7ecda08eda3c84cd68c3d7b798a03/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /home/lovelace/.android/build-cache/32891bed055882659371bb220ddd3319f4016af3/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/lovelace/.android/build-cache/0e634ae757312c8de1e7915fe9c3f2df3835a896/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/lovelace/.android/build-cache/5110ff24eb3eee13df0b94ced24800ea64773dce/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/lovelace/.android/build-cache/bfabdbb295310c326db99f375b144d337da1ce16/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/lovelace/.android/build-cache/0193cb2fa4acd4630e001a083d235cd8c6481228/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/lovelace/.android/build-cache/9b374082cac085f376806920ec2c04e3e7dfaab3/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-compat:25.3.1] /home/lovelace/.android/build-cache/7236660a58cfa11b85ae86f93a35f13d1433872b/output/AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /home/lovelace/.android/build-cache/46d00b67b019a4d2c3ad0ea216d8efb894f5ff03/output/AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /home/lovelace/.android/build-cache/46d00b67b019a4d2c3ad0ea216d8efb894f5ff03/output/AndroidManifest.xml:26:9-47

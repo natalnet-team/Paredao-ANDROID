@@ -1,0 +1,7 @@
+#Fri Feb 23 10:26:33 BRT 2018
+base.0=/home/lovelace/Documentos/Projeto Paredão/Programação Android/10DimensoesControle/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_142cc664fe1c7f63f6278be16cdcf9f2bab456d4
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/home/lovelace/Documentos/Projeto Paredão/Programação Android/10DimensoesControle/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_a895d45bd1d459e01fce64535374f4f42c90400c/classes.dex
+base.1=/home/lovelace/Documentos/Projeto Paredão/Programação Android/10DimensoesControle/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_a895d45bd1d459e01fce64535374f4f42c90400c
+file.0=/home/lovelace/Documentos/Projeto Paredão/Programação Android/10DimensoesControle/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_142cc664fe1c7f63f6278be16cdcf9f2bab456d4/classes.dex
