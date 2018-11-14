@@ -6,6 +6,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Switch;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -27,25 +28,26 @@ public class MainActivity extends AppCompatActivity {
         final Button btEnviar = (Button) findViewById(R.id.btEnviar);
         final Button btCoca = (Button) findViewById(R.id.btCoca);
         final Button button = (Button) findViewById(R.id.bt_conectar);
+        final Switch btLigar = (Switch) findViewById(R.id.bt_ligar);
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                if(conectado) {
+                if (conectado) {
                     cliente.encerrar();
                     conectado = false;
                     button.setText("Conectar");
-                }else{
+                } else {
                     try {
                         String x = String.valueOf(et_ip.getText());
                         int y = Integer.valueOf(String.valueOf(et_porta.getText()));
                         Log.e("Main", "Ip: " + x + " Porta: " + y);
-                        cliente = new Cliente(x , y);
+                        cliente = new Cliente(x, y);
                         cliente.start();
                         cliente.sendMsg("@texto@");
                         Thread.sleep(500);
                         conectado = true;
                         button.setText("Desconectar");
                         cliente.sendMsg("10");
-                    }catch (Exception e){
+                    } catch (Exception e) {
                         Log.e("Main", "Erro ao criar conexao");
                         conectado = false;
                         button.setText("Conectar");
@@ -54,12 +56,13 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+
         btEnviar.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                try{
+                try {
                     String txt = textView0.getText().toString();
                     cliente.sendMsg(txt);
-                }catch (Exception e){
+                } catch (Exception e) {
                     Log.e("Main", "Erro ao enviar" + e);
                 }
 
@@ -68,13 +71,22 @@ public class MainActivity extends AppCompatActivity {
         btCoca.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
 
-                try{
+                try {
                     cliente.sendMsg(".");
-                }
-                catch (Exception e){
+                } catch (Exception e) {
                     Log.e("Main", "Erro ao enviar");
                 }
             }
         });
-    }
-}
+        btLigar.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+
+                try{
+                    cliente.OnOff(btLigar.isChecked());
+                }catch(Exception e){
+                    Log.e("Main", "Erro ao ligar/desligar");
+                }
+
+            }
+        });
+    }}

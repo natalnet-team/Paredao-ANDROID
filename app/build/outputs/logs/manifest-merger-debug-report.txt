@@ -1,91 +1,175 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/lovelace/Documentos/Projeto Paredão/Programação Android/10DimensoesControle/app/src/main/AndroidManifest.xml:2:1-24:12
+ADDED from /home/lucas/Downloads/10DimensoesControle/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /home/lucas/Downloads/10DimensoesControle/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /home/lucas/Downloads/10DimensoesControle/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /home/lucas/Downloads/10DimensoesControle/app/src/main/AndroidManifest.xml:2:1-24:12
+MERGED from [com.android.support:design:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/96176179bff4fb9487b60fad654069e3/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/cc761d00c167f28ef86948e5efd4b702/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/lucas/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/00d789794784ae6b56f4731f989c1c26/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/470d077d14ccfbbe6bcca5b77700c503/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/bf379b77367add12a92f26e95f2773fa/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/ee35bb47d2ffea2af5b8e89e6aeac91a/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:transition:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/7d054fb2dbb7420b3c65830f4f73756e/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/18c1df42317ecfde73fb6c5905175553/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/a1f7d79b69dfd1acd6aa2a0e66c5202e/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/bf6449738b77d7e89b042c061f6b3872/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/ac471568baa967f921fb48dd08aeb471/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/78a92d1dcbee91f0e88a621a3a640856/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/0f9a9ce78c2352a5848f8ffb062c1e20/AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/b9a45eefc71e039c443a03f6b20e568c/AndroidManifest.xml:17:1-30:12
+INJECTED from /home/lucas/Downloads/10DimensoesControle/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /home/lucas/Downloads/10DimensoesControle/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /home/lucas/Downloads/10DimensoesControle/app/src/main/AndroidManifest.xml:2:1-24:12
 	package
-		ADDED from /home/lovelace/Documentos/Projeto Paredão/Programação Android/10DimensoesControle/app/src/main/AndroidManifest.xml:3:5-63
-		INJECTED from /home/lovelace/Documentos/Projeto Paredão/Programação Android/10DimensoesControle/app/src/main/AndroidManifest.xml
-		INJECTED from /home/lovelace/Documentos/Projeto Paredão/Programação Android/10DimensoesControle/app/src/main/AndroidManifest.xml
+		ADDED from /home/lucas/Downloads/10DimensoesControle/app/src/main/AndroidManifest.xml:3:5-63
+		INJECTED from /home/lucas/Downloads/10DimensoesControle/app/src/main/AndroidManifest.xml
+		INJECTED from /home/lucas/Downloads/10DimensoesControle/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /home/lovelace/Documentos/Projeto Paredão/Programação Android/10DimensoesControle/app/src/main/AndroidManifest.xml
-		INJECTED from /home/lovelace/Documentos/Projeto Paredão/Programação Android/10DimensoesControle/app/src/main/AndroidManifest.xml
-	xmlns:android
-		ADDED from /home/lovelace/Documentos/Projeto Paredão/Programação Android/10DimensoesControle/app/src/main/AndroidManifest.xml:2:11-69
+		INJECTED from /home/lucas/Downloads/10DimensoesControle/app/src/main/AndroidManifest.xml
+		ADDED from /home/lucas/Downloads/10DimensoesControle/app/src/main/AndroidManifest.xml:2:1-24:12
+		INJECTED from /home/lucas/Downloads/10DimensoesControle/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /home/lovelace/Documentos/Projeto Paredão/Programação Android/10DimensoesControle/app/src/main/AndroidManifest.xml
-		INJECTED from /home/lovelace/Documentos/Projeto Paredão/Programação Android/10DimensoesControle/app/src/main/AndroidManifest.xml
+		INJECTED from /home/lucas/Downloads/10DimensoesControle/app/src/main/AndroidManifest.xml
+		ADDED from /home/lucas/Downloads/10DimensoesControle/app/src/main/AndroidManifest.xml:2:1-24:12
+		INJECTED from /home/lucas/Downloads/10DimensoesControle/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/lucas/Downloads/10DimensoesControle/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /home/lovelace/Documentos/Projeto Paredão/Programação Android/10DimensoesControle/app/src/main/AndroidManifest.xml:5:5-67
+ADDED from /home/lucas/Downloads/10DimensoesControle/app/src/main/AndroidManifest.xml:5:5-67
 	android:name
-		ADDED from /home/lovelace/Documentos/Projeto Paredão/Programação Android/10DimensoesControle/app/src/main/AndroidManifest.xml:5:22-64
+		ADDED from /home/lucas/Downloads/10DimensoesControle/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /home/lovelace/Documentos/Projeto Paredão/Programação Android/10DimensoesControle/app/src/main/AndroidManifest.xml:8:5-22:19
-MERGED from [com.android.support:appcompat-v7:25.3.1] /home/lovelace/.android/build-cache/46d00b67b019a4d2c3ad0ea216d8efb894f5ff03/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-v4:25.3.1] /home/lovelace/.android/build-cache/702feea9d7c7ecda08eda3c84cd68c3d7b798a03/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:25.3.1] /home/lovelace/.android/build-cache/32891bed055882659371bb220ddd3319f4016af3/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.1] /home/lovelace/.android/build-cache/0e634ae757312c8de1e7915fe9c3f2df3835a896/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] /home/lovelace/.android/build-cache/5110ff24eb3eee13df0b94ced24800ea64773dce/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] /home/lovelace/.android/build-cache/bfabdbb295310c326db99f375b144d337da1ce16/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/lovelace/.android/build-cache/0193cb2fa4acd4630e001a083d235cd8c6481228/output/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/lovelace/.android/build-cache/9b374082cac085f376806920ec2c04e3e7dfaab3/output/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-compat:25.3.1] /home/lovelace/.android/build-cache/7236660a58cfa11b85ae86f93a35f13d1433872b/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/lovelace/.android/build-cache/5032cd33c41fcdeaaee6ac8c8bddaf9334bb0e08/output/AndroidManifest.xml:9:5-20
-	android:label
-		ADDED from /home/lovelace/Documentos/Projeto Paredão/Programação Android/10DimensoesControle/app/src/main/AndroidManifest.xml:11:9-41
+ADDED from /home/lucas/Downloads/10DimensoesControle/app/src/main/AndroidManifest.xml:8:5-22:19
+MERGED from [com.android.support:design:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/96176179bff4fb9487b60fad654069e3/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/96176179bff4fb9487b60fad654069e3/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/cc761d00c167f28ef86948e5efd4b702/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/cc761d00c167f28ef86948e5efd4b702/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/lucas/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/00d789794784ae6b56f4731f989c1c26/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/lucas/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/00d789794784ae6b56f4731f989c1c26/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/470d077d14ccfbbe6bcca5b77700c503/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/470d077d14ccfbbe6bcca5b77700c503/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/bf379b77367add12a92f26e95f2773fa/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/bf379b77367add12a92f26e95f2773fa/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/ee35bb47d2ffea2af5b8e89e6aeac91a/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/ee35bb47d2ffea2af5b8e89e6aeac91a/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/7d054fb2dbb7420b3c65830f4f73756e/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/7d054fb2dbb7420b3c65830f4f73756e/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/18c1df42317ecfde73fb6c5905175553/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/18c1df42317ecfde73fb6c5905175553/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/a1f7d79b69dfd1acd6aa2a0e66c5202e/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/a1f7d79b69dfd1acd6aa2a0e66c5202e/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/bf6449738b77d7e89b042c061f6b3872/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/bf6449738b77d7e89b042c061f6b3872/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/ac471568baa967f921fb48dd08aeb471/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/ac471568baa967f921fb48dd08aeb471/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/78a92d1dcbee91f0e88a621a3a640856/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/78a92d1dcbee91f0e88a621a3a640856/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/0f9a9ce78c2352a5848f8ffb062c1e20/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/0f9a9ce78c2352a5848f8ffb062c1e20/AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/b9a45eefc71e039c443a03f6b20e568c/AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/b9a45eefc71e039c443a03f6b20e568c/AndroidManifest.xml:24:5-28:19
 	android:supportsRtl
-		ADDED from /home/lovelace/Documentos/Projeto Paredão/Programação Android/10DimensoesControle/app/src/main/AndroidManifest.xml:13:9-35
+		ADDED from /home/lucas/Downloads/10DimensoesControle/app/src/main/AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from /home/lucas/Downloads/10DimensoesControle/app/src/main/AndroidManifest.xml:11:9-41
 	android:roundIcon
-		ADDED from /home/lovelace/Documentos/Projeto Paredão/Programação Android/10DimensoesControle/app/src/main/AndroidManifest.xml:12:9-54
-	android:allowBackup
-		ADDED from /home/lovelace/Documentos/Projeto Paredão/Programação Android/10DimensoesControle/app/src/main/AndroidManifest.xml:9:9-35
+		ADDED from /home/lucas/Downloads/10DimensoesControle/app/src/main/AndroidManifest.xml:12:9-54
 	android:icon
-		ADDED from /home/lovelace/Documentos/Projeto Paredão/Programação Android/10DimensoesControle/app/src/main/AndroidManifest.xml:10:9-43
+		ADDED from /home/lucas/Downloads/10DimensoesControle/app/src/main/AndroidManifest.xml:10:9-43
+	android:allowBackup
+		ADDED from /home/lucas/Downloads/10DimensoesControle/app/src/main/AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from /home/lovelace/Documentos/Projeto Paredão/Programação Android/10DimensoesControle/app/src/main/AndroidManifest.xml:14:9-40
+		ADDED from /home/lucas/Downloads/10DimensoesControle/app/src/main/AndroidManifest.xml:14:9-40
 activity#com.example.williankossmann.a10dimensoescontrole.MainActivity
-ADDED from /home/lovelace/Documentos/Projeto Paredão/Programação Android/10DimensoesControle/app/src/main/AndroidManifest.xml:15:9-21:20
+ADDED from /home/lucas/Downloads/10DimensoesControle/app/src/main/AndroidManifest.xml:15:9-21:20
 	android:name
-		ADDED from /home/lovelace/Documentos/Projeto Paredão/Programação Android/10DimensoesControle/app/src/main/AndroidManifest.xml:15:19-47
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /home/lovelace/Documentos/Projeto Paredão/Programação Android/10DimensoesControle/app/src/main/AndroidManifest.xml:16:13-20:29
+		ADDED from /home/lucas/Downloads/10DimensoesControle/app/src/main/AndroidManifest.xml:15:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/lucas/Downloads/10DimensoesControle/app/src/main/AndroidManifest.xml:16:13-20:29
 action#android.intent.action.MAIN
-ADDED from /home/lovelace/Documentos/Projeto Paredão/Programação Android/10DimensoesControle/app/src/main/AndroidManifest.xml:17:17-69
+ADDED from /home/lucas/Downloads/10DimensoesControle/app/src/main/AndroidManifest.xml:17:17-69
 	android:name
-		ADDED from /home/lovelace/Documentos/Projeto Paredão/Programação Android/10DimensoesControle/app/src/main/AndroidManifest.xml:17:25-66
+		ADDED from /home/lucas/Downloads/10DimensoesControle/app/src/main/AndroidManifest.xml:17:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/lovelace/Documentos/Projeto Paredão/Programação Android/10DimensoesControle/app/src/main/AndroidManifest.xml:19:17-77
+ADDED from /home/lucas/Downloads/10DimensoesControle/app/src/main/AndroidManifest.xml:19:17-77
 	android:name
-		ADDED from /home/lovelace/Documentos/Projeto Paredão/Programação Android/10DimensoesControle/app/src/main/AndroidManifest.xml:19:27-74
+		ADDED from /home/lucas/Downloads/10DimensoesControle/app/src/main/AndroidManifest.xml:19:27-74
 uses-sdk
-INJECTED from /home/lovelace/Documentos/Projeto Paredão/Programação Android/10DimensoesControle/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:appcompat-v7:25.3.1] /home/lovelace/.android/build-cache/46d00b67b019a4d2c3ad0ea216d8efb894f5ff03/output/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-v4:25.3.1] /home/lovelace/.android/build-cache/702feea9d7c7ecda08eda3c84cd68c3d7b798a03/output/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.3.1] /home/lovelace/.android/build-cache/32891bed055882659371bb220ddd3319f4016af3/output/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.3.1] /home/lovelace/.android/build-cache/0e634ae757312c8de1e7915fe9c3f2df3835a896/output/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.3.1] /home/lovelace/.android/build-cache/5110ff24eb3eee13df0b94ced24800ea64773dce/output/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.3.1] /home/lovelace/.android/build-cache/bfabdbb295310c326db99f375b144d337da1ce16/output/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/lovelace/.android/build-cache/0193cb2fa4acd4630e001a083d235cd8c6481228/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/lovelace/.android/build-cache/9b374082cac085f376806920ec2c04e3e7dfaab3/output/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-compat:25.3.1] /home/lovelace/.android/build-cache/7236660a58cfa11b85ae86f93a35f13d1433872b/output/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/lovelace/.android/build-cache/5032cd33c41fcdeaaee6ac8c8bddaf9334bb0e08/output/AndroidManifest.xml:5:5-7:41
+INJECTED from /home/lucas/Downloads/10DimensoesControle/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/lucas/Downloads/10DimensoesControle/app/src/main/AndroidManifest.xml
+INJECTED from /home/lucas/Downloads/10DimensoesControle/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/96176179bff4fb9487b60fad654069e3/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/96176179bff4fb9487b60fad654069e3/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/cc761d00c167f28ef86948e5efd4b702/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/cc761d00c167f28ef86948e5efd4b702/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/lucas/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/00d789794784ae6b56f4731f989c1c26/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/lucas/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/00d789794784ae6b56f4731f989c1c26/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/470d077d14ccfbbe6bcca5b77700c503/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/470d077d14ccfbbe6bcca5b77700c503/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/bf379b77367add12a92f26e95f2773fa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/bf379b77367add12a92f26e95f2773fa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/ee35bb47d2ffea2af5b8e89e6aeac91a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/ee35bb47d2ffea2af5b8e89e6aeac91a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/7d054fb2dbb7420b3c65830f4f73756e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/7d054fb2dbb7420b3c65830f4f73756e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/18c1df42317ecfde73fb6c5905175553/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/18c1df42317ecfde73fb6c5905175553/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/a1f7d79b69dfd1acd6aa2a0e66c5202e/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/a1f7d79b69dfd1acd6aa2a0e66c5202e/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/bf6449738b77d7e89b042c061f6b3872/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/bf6449738b77d7e89b042c061f6b3872/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/ac471568baa967f921fb48dd08aeb471/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/ac471568baa967f921fb48dd08aeb471/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/78a92d1dcbee91f0e88a621a3a640856/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/78a92d1dcbee91f0e88a621a3a640856/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/0f9a9ce78c2352a5848f8ffb062c1e20/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/0f9a9ce78c2352a5848f8ffb062c1e20/AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/b9a45eefc71e039c443a03f6b20e568c/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/b9a45eefc71e039c443a03f6b20e568c/AndroidManifest.xml:20:5-22:41
+INJECTED from /home/lucas/Downloads/10DimensoesControle/app/src/main/AndroidManifest.xml
+INJECTED from /home/lucas/Downloads/10DimensoesControle/app/src/main/AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:25.3.1] /home/lovelace/.android/build-cache/46d00b67b019a4d2c3ad0ea216d8efb894f5ff03/output/AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:design:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/96176179bff4fb9487b60fad654069e3/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from /home/lovelace/Documentos/Projeto Paredão/Programação Android/10DimensoesControle/app/src/main/AndroidManifest.xml
-		INJECTED from /home/lovelace/Documentos/Projeto Paredão/Programação Android/10DimensoesControle/app/src/main/AndroidManifest.xml
+		INJECTED from /home/lucas/Downloads/10DimensoesControle/app/src/main/AndroidManifest.xml
+		ADDED from /home/lucas/Downloads/10DimensoesControle/app/src/main/AndroidManifest.xml
+		INJECTED from /home/lucas/Downloads/10DimensoesControle/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/lovelace/Documentos/Projeto Paredão/Programação Android/10DimensoesControle/app/src/main/AndroidManifest.xml
-		INJECTED from /home/lovelace/Documentos/Projeto Paredão/Programação Android/10DimensoesControle/app/src/main/AndroidManifest.xml
+		INJECTED from /home/lucas/Downloads/10DimensoesControle/app/src/main/AndroidManifest.xml
+		ADDED from /home/lucas/Downloads/10DimensoesControle/app/src/main/AndroidManifest.xml
+		INJECTED from /home/lucas/Downloads/10DimensoesControle/app/src/main/AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:appcompat-v7:25.3.1] /home/lovelace/.android/build-cache/46d00b67b019a4d2c3ad0ea216d8efb894f5ff03/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-v4:25.3.1] /home/lovelace/.android/build-cache/702feea9d7c7ecda08eda3c84cd68c3d7b798a03/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.1] /home/lovelace/.android/build-cache/32891bed055882659371bb220ddd3319f4016af3/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.1] /home/lovelace/.android/build-cache/0e634ae757312c8de1e7915fe9c3f2df3835a896/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.1] /home/lovelace/.android/build-cache/5110ff24eb3eee13df0b94ced24800ea64773dce/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] /home/lovelace/.android/build-cache/bfabdbb295310c326db99f375b144d337da1ce16/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/lovelace/.android/build-cache/0193cb2fa4acd4630e001a083d235cd8c6481228/output/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/lovelace/.android/build-cache/9b374082cac085f376806920ec2c04e3e7dfaab3/output/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-compat:25.3.1] /home/lovelace/.android/build-cache/7236660a58cfa11b85ae86f93a35f13d1433872b/output/AndroidManifest.xml:25:5-27:34
+ADDED from [com.android.support:design:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/96176179bff4fb9487b60fad654069e3/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/cc761d00c167f28ef86948e5efd4b702/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/cc761d00c167f28ef86948e5efd4b702/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/470d077d14ccfbbe6bcca5b77700c503/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/470d077d14ccfbbe6bcca5b77700c503/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/bf379b77367add12a92f26e95f2773fa/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/bf379b77367add12a92f26e95f2773fa/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/ee35bb47d2ffea2af5b8e89e6aeac91a/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/ee35bb47d2ffea2af5b8e89e6aeac91a/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/7d054fb2dbb7420b3c65830f4f73756e/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/7d054fb2dbb7420b3c65830f4f73756e/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/18c1df42317ecfde73fb6c5905175553/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/18c1df42317ecfde73fb6c5905175553/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/a1f7d79b69dfd1acd6aa2a0e66c5202e/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/a1f7d79b69dfd1acd6aa2a0e66c5202e/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/bf6449738b77d7e89b042c061f6b3872/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/bf6449738b77d7e89b042c061f6b3872/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/ac471568baa967f921fb48dd08aeb471/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/ac471568baa967f921fb48dd08aeb471/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/78a92d1dcbee91f0e88a621a3a640856/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/78a92d1dcbee91f0e88a621a3a640856/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/0f9a9ce78c2352a5848f8ffb062c1e20/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/0f9a9ce78c2352a5848f8ffb062c1e20/AndroidManifest.xml:26:9-28:38
 	android:value
-		ADDED from [com.android.support:appcompat-v7:25.3.1] /home/lovelace/.android/build-cache/46d00b67b019a4d2c3ad0ea216d8efb894f5ff03/output/AndroidManifest.xml:27:9-31
+		ADDED from [com.android.support:design:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/96176179bff4fb9487b60fad654069e3/AndroidManifest.xml:28:13-35
 	android:name
-		ADDED from [com.android.support:appcompat-v7:25.3.1] /home/lovelace/.android/build-cache/46d00b67b019a4d2c3ad0ea216d8efb894f5ff03/output/AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:design:26.1.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/96176179bff4fb9487b60fad654069e3/AndroidManifest.xml:27:13-51
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/b9a45eefc71e039c443a03f6b20e568c/AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/b9a45eefc71e039c443a03f6b20e568c/AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/lucas/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/b9a45eefc71e039c443a03f6b20e568c/AndroidManifest.xml:26:13-58

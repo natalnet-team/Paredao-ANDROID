@@ -63,6 +63,13 @@ public class Cliente extends Thread{
         }
     }
 
+    public void OnOff(boolean _isChecked){
+        try{
+            saida.writeBoolean(_isChecked);
+        }catch(Exception e){
+            Log.e("Cliente", "Erro ao ligar/desligar..");
+        }
+    }
 
     public void encerrar(){
         try {
