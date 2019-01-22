@@ -1,0 +1,4 @@
+#Fri Jun 29 15:11:42 BRT 2018
+base.0=/home/lovelace/Documentos/Projeto Paredão/Programação Android/10Dimensoes/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/home/lovelace/Documentos/Projeto Paredão/Programação Android/10Dimensoes/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
