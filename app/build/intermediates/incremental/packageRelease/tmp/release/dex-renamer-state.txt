@@ -1,0 +1,4 @@
+#Tue Apr 16 16:23:30 GFT 2019
+base.0=E\:\\Paredao-ANDROID-master\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\out
+path.0=classes.dex
+renamed.0=classes.dex
