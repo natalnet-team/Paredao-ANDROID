@@ -778,6 +778,7 @@ id standard
 id start
 id submenuarrow
 id submit_area
+id sw
 id tabMode
 id tag_transition_group
 id tag_unhandled_key_event_manager
@@ -799,6 +800,9 @@ id topPanel
 id tv_Central
 id tv_ip
 id tv_porta
+id tx
+id ty
+id tz
 id uniform
 id up
 id useLogo

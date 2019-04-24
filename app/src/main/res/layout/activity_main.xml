@@ -30,6 +30,42 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+        android:id="@+id/tx"
+        android:layout_width="117dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:text="X:"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ty"
+        android:layout_width="114dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="156dp"
+        android:layout_marginLeft="156dp"
+        android:layout_marginTop="16dp"
+        android:text="Y:"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tz"
+        android:layout_width="112dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="288dp"
+        android:layout_marginLeft="288dp"
+        android:layout_marginTop="16dp"
+        android:text="Z:"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
         android:id="@+id/textView4"
         android:layout_width="193dp"
         android:layout_height="17dp"
@@ -37,6 +73,17 @@
         android:layout_marginLeft="44dp"
         android:layout_marginTop="632dp"
         android:text="Estado de Conexão (Local):"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Switch
+        android:id="@+id/sw"
+        android:layout_width="148dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="244dp"
+        android:layout_marginLeft="244dp"
+        android:layout_marginTop="172dp"
+        android:text="Modo Nuvem"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -64,8 +111,9 @@
 
     <Button
         android:id="@+id/bt_conectar"
-        android:layout_width="107dp"
+        style="@style/Widget.AppCompat.Button.Colored"
 
+        android:layout_width="107dp"
         android:layout_height="47dp"
         android:layout_marginStart="300dp"
         android:layout_marginLeft="300dp"
@@ -73,6 +121,7 @@
         android:layout_marginEnd="12dp"
         android:layout_marginRight="12dp"
         android:text="Conectar"
+        android:textSize="10sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -112,6 +161,7 @@
         android:layout_marginTop="100dp"
         android:ems="7"
         android:inputType="text"
+        android:textSize="14sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -124,6 +174,7 @@
         android:layout_marginTop="100dp"
         android:ems="5"
         android:inputType="number"
+        android:textSize="14sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -150,30 +201,34 @@
 
     <EditText
         android:id="@+id/field_msg"
-        android:layout_width="269dp"
-        android:layout_height="47dp"
+        android:layout_width="365dp"
+        android:layout_height="42dp"
         android:layout_marginStart="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="260dp"
         android:ems="10"
         android:inputType="text"
         android:text=""
+        android:textSize="14sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/bt_msg"
-        android:layout_width="107dp"
-        android:layout_height="46dp"
-        android:layout_marginStart="296dp"
-        android:layout_marginLeft="296dp"
-        android:layout_marginTop="260dp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="122dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginLeft="148dp"
+        android:layout_marginTop="316dp"
         android:text="Enviar"
+        android:textSize="10sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btLigar"
+        style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -183,15 +238,17 @@
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
         android:text="Ligar"
+        android:textSize="10sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.28"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.799" />
+        app:layout_constraintVertical_bias="0.605" />
 
     <Button
         android:id="@+id/btDesligar"
+        style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -201,11 +258,12 @@
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
         android:text="Desligar"
+        android:textSize="10sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.651"
+        app:layout_constraintHorizontal_bias="0.719"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.799" />
+        app:layout_constraintVertical_bias="0.605" />
 
 </android.support.constraint.ConstraintLayout>
