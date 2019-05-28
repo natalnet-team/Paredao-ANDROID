@@ -38,13 +38,17 @@ public class MainActivity extends AppCompatActivity {
 
     public Cliente cliente;
     boolean conectado = false;
-
     private TextView tv_Central;
     private TextView nuvem;
     private EditText et_ip, et_porta;
+    //Inicializando o MQTT, o host depende da sua interface.
     static String MQTTHOST = "tcp://m16.cloudmqtt.com:12046";
+    //O usuario gerado pelo servidor
     static String USERNAME = "znyeyfdl";
+    //A senha gerada pelo servidor.
     static String PASSWORD = "ufFO-2eQarFz";
+    //O topico serve para sincronizar os dispositivos.
+    //Direcione-os para conversar no mesmo topico, para que todos recebam a mensagem
     String topicStr = "esp/test";
     MqttAndroidClient client;
     double moduloCru;
@@ -82,22 +86,28 @@ public class MainActivity extends AppCompatActivity {
         nuvem.setTextColor(Color.RED);
         btLigar.setEnabled(!btLigar.isEnabled());
         btDesligar.setEnabled(!btDesligar.isEnabled());
+        //Verifica o aperto do botao NUVEM.
         sw.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 if (isChecked == true) {
+                    //Ao ser ligado, ative os botoes de ligar e desligar o paredao.
                     btLigar.setEnabled(true);
                     btDesligar.setEnabled(true);
+                    //Verifique no sistema se existe conexao, caso exista, sera possivel realizar a comunicaao.
+                    //Caso nao haja internet, o sistema emitira uma mensagem vista no else.
                     ConnectivityManager connectivityManager = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
                     if (connectivityManager.getNetworkInfo(ConnectivityManager.TYPE_MOBILE).getState() == NetworkInfo.State.CONNECTED ||
                             connectivityManager.getNetworkInfo(ConnectivityManager.TYPE_WIFI).getState() == NetworkInfo.State.CONNECTED) {
                         //we are connected to a network
 
                         try {
+                            //Tente uma conexao com o MQTT nas especificacoes descritas nas variaveis acima.
                             IMqttToken token = client.connect(options);
                             token.setActionCallback(new IMqttActionListener() {
                                 @Override
                                 public void onSuccess(IMqttToken asyncActionToken) {
+                                    //Emite uma mensagem caso tenha sucesso.
                                     Toast.makeText(MainActivity.this, "Conectado a nuvem! :) ", Toast.LENGTH_LONG).show();
                                     nuvem.setText("Conectado");
                                     nuvem.setTextColor(Color.GREEN);
@@ -119,6 +129,7 @@ public class MainActivity extends AppCompatActivity {
                         btDesligar.setEnabled(false);
                     }
                 }else{
+                    //Caso a rotina nao seja satisfeita ou o botao nao seja apertado, desabilite os botoes referents a nuvem.
                     nuvem.setText("Desconectado");
                     nuvem.setTextColor(Color.RED);
                     btLigar.setEnabled(false);
@@ -126,6 +137,7 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+        //Tentando a conexao local, por meio do servidor. Caso o botao seja pressionado, muda-se as cores e troca-se os texztos do botao.
         button.setOnClickListener(new View.OnClickListener() {
             @SuppressLint("SetTextI18n")
             public void onClick(View v) {
@@ -137,6 +149,8 @@ public class MainActivity extends AppCompatActivity {
                     tv_Central.setTextColor(Color.RED);
                 }else{
                     try {
+                        //Pega as informacoes nos textView relacionadas a porta e ao ip.
+                        //Caso tenha sucesso, mude a cor do texto.
                         String x = String.valueOf(et_ip.getText());
                         int y = Integer.valueOf(String.valueOf(et_porta.getText()));
                         Log.e("Main", "Ip: " + x + " Porta: " + y);
@@ -161,11 +175,13 @@ public class MainActivity extends AppCompatActivity {
 
         btEnviar.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
+                //Caso o botao nuvem esteja apertado, significa que tentaremos conexao via MQTT.
                 if (sw.isChecked()) {
                     String topic = topicStr;
                     String mes = msg.getText().toString();
                     byte[] enc = new byte[0];
                     try {
+                        //A mensagem e encriptada e enviada para o servidor no topico descrito acima.
                         enc = mes.getBytes("UTF-8");
                         MqttMessage message = new MqttMessage(enc);
                         message.setRetained(true);
@@ -177,7 +193,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                 }else{
                 try {
-
+                    //Caso o modo nuvem nao esteja apertado, tentaremos conexao local pelo servidor JAVA.
                     String txt = msg.getText().toString() +";";
                     msg.setText("");
                     cliente.sendMsg(txt);
@@ -188,7 +204,7 @@ public class MainActivity extends AppCompatActivity {
             }
             }
         });
-
+        //Realiza o envio do sinal de ligar para o servidor MQTT.
         btLigar.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 try {
@@ -206,6 +222,7 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+         //Realiza o envio do sinal de desligar para o servidor MQTT.
         btDesligar.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 try {
@@ -223,9 +240,10 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
-
+        //Realiza a leitura do Acelerometro do dispositivo.
         SensorManager mSensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
         assert mSensorManager != null;
+        //Carrega as medidas do sensor.
         Sensor mSensor = mSensorManager.getDefaultSensor(Sensor.TYPE_LINEAR_ACCELERATION);
         mSensorManager.registerListener(new SensorEventListener() {
             @SuppressLint("SetTextI18n")
@@ -237,9 +255,11 @@ public class MainActivity extends AppCompatActivity {
                 float z = (event.values[2]/event.sensor.getMaximumRange()/2) * 50;
                 event.sensor.getMaximumRange();
                 moduloCru = Math.sqrt(x*x + y*y + z*z);
+                //Printa os dados na tela da Main Activity.
                 tx.setText("X: " + (event.values[0]));
                 ty.setText("Y: " + (event.values[1]));
                 tz.setText("Z: " + (event.values[2]));
+                //Filtra o sinal.
                 if(moduloCru > 50){
                     moduloCru = 50;
                 }else if(moduloCru<0){
