@@ -10,3 +10,4 @@ Os passos a seguir foram feitos para se obter os dados necessários:
   <li>Crie uma nova instancia e adquira seus dados, sendo estes: Server, User, Password e Port
   
 </ul>
+![Screenshot_20190529-204557](https://user-images.githubusercontent.com/31252524/58598619-806c7a00-8253-11e9-9c8f-7794c79cfd93.jpg)
