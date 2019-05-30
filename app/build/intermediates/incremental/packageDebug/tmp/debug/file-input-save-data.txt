@@ -1,7 +1,7 @@
 #Internal package file, do not edit.
-#Wed Jan 16 19:12:23 BRST 2019
+#Mon Apr 15 18:18:22 GFT 2019
 0.baseType=DIRECTORY
-0.base=C\:\\Users\\lucas\\Downloads\\10Dimensoes\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+0.base=E\:\\Paredao-ANDROID-master\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
 0.path=classes.dex
 0.set=DEX
 count=1

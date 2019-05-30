@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.williankossmann.a10dimensoes.test" >
+    package="com.example.williankossmann.final10dimensoes.test" >
 
     <uses-sdk
         android:minSdkVersion="15"

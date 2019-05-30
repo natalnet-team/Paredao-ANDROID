@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Wed May 29 20:58:21 BRT 2019
+0.baseType=DIRECTORY
+0.base=C\:\\Users\\ARY\\Documents\\Backup\\Paredao-ANDROID-master\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\out
+0.path=classes.dex
+0.set=DEX
+count=1
