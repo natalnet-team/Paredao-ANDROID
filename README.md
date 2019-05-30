@@ -10,8 +10,10 @@ Os passos a seguir foram feitos para se obter os dados necessários:
   <li>Crie uma nova instancia e adquira seus dados, sendo estes: Server, User, Password e Port
   
 </ul>
-Os dados obtidos pelo MQTT são utilizados no android pelo codigo abaixo:
-```
+Os dados obtidos pelo MQTT são utilizados no android pelo codigo abaixo. Utilizando estes dados, é possivel tentar uma conexão com o servidor e escrever no topico esp/test. O *Topico* é onde todos os dispositivos conversam, é preciso designar os microcontroladores para conversar neste mesmo topico descrito em _topicStr_:
+<br>
+
+```Java
 static String MQTTHOST = "tcp://m16.cloudmqtt.com:12046";
     static String USERNAME = "znyeyfdl";
     static String PASSWORD = "ufFO-2eQarFz";
