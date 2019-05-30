@@ -20,7 +20,13 @@ static String MQTTHOST = "tcp://m16.cloudmqtt.com:12046";
     String topicStr = "esp/test";
     MqttAndroidClient client;
 ```
+<br>
+O modo nuvem passa a funcionar e pode escrever no topico, enviando uma string de mensagem, ou os valores ON e OFF para os botões Ligar e Desligar respectivamente.
+<br>
 <center>
 <img src="https://user-images.githubusercontent.com/31252524/58599342-40f35d00-8256-11e9-9c84-a0acbb860dee.jpg">
 </center>
   
+Na opção WEBSOCKETUI do cloudmqtt podemos ver as mensagens chegando conforme enviamos. Estas mensagens são tratadas pelo microcontrolador para realizar uma ação especifica.
+
+<img src="https://user-images.githubusercontent.com/31252524/58599654-9d0ab100-8257-11e9-901e-99fad5c04487.png">
