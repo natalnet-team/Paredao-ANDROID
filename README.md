@@ -10,4 +10,26 @@ Os passos a seguir foram feitos para se obter os dados necessários:
   <li>Crie uma nova instancia e adquira seus dados, sendo estes: Server, User, Password e Port
   
 </ul>
-![Screenshot_20190529-204557](https://user-images.githubusercontent.com/31252524/58598619-806c7a00-8253-11e9-9c8f-7794c79cfd93.jpg)
+Os dados obtidos pelo MQTT são utilizados no android pelo codigo abaixo. Utilizando estes dados, é possivel tentar uma conexão com o servidor e escrever no topico esp/test. O *Topico* é onde todos os dispositivos conversam, é preciso designar os microcontroladores para conversar neste mesmo topico descrito em _topicStr_:
+<br>
+
+```Java
+static String MQTTHOST = "tcp://m16.cloudmqtt.com:12046";
+    static String USERNAME = "znyeyfdl";
+    static String PASSWORD = "ufFO-2eQarFz";
+    String topicStr = "esp/test";
+    MqttAndroidClient client;
+```
+<br>
+
+O modo nuvem passa a funcionar e pode escrever no topico, enviando uma string de mensagem, ou os valores ON e OFF para os botões Ligar e Desligar respectivamente.
+
+
+<center>
+<img src="https://user-images.githubusercontent.com/31252524/58599342-40f35d00-8256-11e9-9c84-a0acbb860dee.jpg">
+</center>
+  
+Na opção WEBSOCKETUI do cloudmqtt podemos ver as mensagens chegando conforme enviamos. Estas mensagens são tratadas pelo microcontrolador para realizar uma ação especifica.
+
+<br>
+<img src="https://user-images.githubusercontent.com/31252524/58599654-9d0ab100-8257-11e9-901e-99fad5c04487.png">
