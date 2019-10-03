@@ -1,4 +1,4 @@
-#Wed Jan 16 19:12:23 BRST 2019
-base.0=C\:\\Users\\lucas\\Downloads\\10Dimensoes\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+#Tue Apr 16 13:06:28 GFT 2019
+base.0=E\:\\Paredao-ANDROID-master\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
 path.0=classes.dex
 renamed.0=classes.dex

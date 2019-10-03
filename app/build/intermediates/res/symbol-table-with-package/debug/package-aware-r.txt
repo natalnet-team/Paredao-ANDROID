@@ -384,6 +384,7 @@ color button_material_light
 color colorAccent
 color colorPrimary
 color colorPrimaryDark
+color colorback
 color dim_foreground_disabled_material_dark
 color dim_foreground_disabled_material_light
 color dim_foreground_material_dark
@@ -787,6 +788,8 @@ id text
 id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
+id textView
+id textView2
 id time
 id title
 id titleDividerNoCustom

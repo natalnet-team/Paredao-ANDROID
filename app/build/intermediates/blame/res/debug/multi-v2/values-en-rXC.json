@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\lucas\\Downloads\\10Dimensoes\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rXC\\values-en-rXC.xml",
+            "outputFile": "E:\\Paredao-ANDROID-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rXC\\values-en-rXC.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\lucas\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\2947588585372d696151ed29eaaf09e1\\res\\values-en-rXC\\values-en-rXC.xml",
+                    "source": "C:\\Users\\axbli\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\2e21950faeaa7f435f6cdd51faa9c582\\res\\values-en-rXC\\values-en-rXC.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\lucas\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\5fbbe0ad803716a9e24d083541fd57e5\\res\\values-en-rXC\\values-en-rXC.xml",
+                    "source": "C:\\Users\\axbli\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\810a8b2f54cf45cc366a9aa495bb2231\\res\\values-en-rXC\\values-en-rXC.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
